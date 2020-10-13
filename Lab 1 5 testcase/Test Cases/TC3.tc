@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Nhập tài khoản để trống mật khẩu</description>
+   <name>TC3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d72e318-8bd7-4e84-a14e-6114928ccc08</testCaseGuid>
+</TestCaseEntity>

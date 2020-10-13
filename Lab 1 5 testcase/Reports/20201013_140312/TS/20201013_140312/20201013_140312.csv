@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS,Chrome 86.0.4240.75,,,2020-10-13 14:03:19,2020-10-13 14:04:14,54.945s,PASSED
+,,,,,,,
+Test Cases/TC1,Chrome 86.0.4240.75,Nhập đúng tài khoản mật khẩu,,2020-10-13 14:03:19,2020-10-13 14:03:33,13.254s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.75,,,2020-10-13 14:03:20,2020-10-13 14:03:25,4.905s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 86.0.4240.75,,,2020-10-13 14:03:25,2020-10-13 14:03:28,3.138s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""))",Chrome 86.0.4240.75,,,2020-10-13 14:03:28,2020-10-13 14:03:28,0.501s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 86.0.4240.75,,,2020-10-13 14:03:28,2020-10-13 14:03:29,0.664s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 86.0.4240.75,,,2020-10-13 14:03:29,2020-10-13 14:03:30,0.553s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 86.0.4240.75,,,2020-10-13 14:03:30,2020-10-13 14:03:31,1.031s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 86.0.4240.75,,,2020-10-13 14:03:31,2020-10-13 14:03:31,0.383s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Logout""))",Chrome 86.0.4240.75,,,2020-10-13 14:03:31,2020-10-13 14:03:32,1.047s,PASSED
+closeBrowser(),Chrome 86.0.4240.75,,,2020-10-13 14:03:32,2020-10-13 14:03:33,0.689s,PASSED
+,,,,,,,
+Test Cases/TC2,Chrome 86.0.4240.75,Nhập sai thông tin đăng nhập,,2020-10-13 14:03:33,2020-10-13 14:03:44,11.031s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.75,,,2020-10-13 14:03:33,2020-10-13 14:03:37,4.377s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 86.0.4240.75,,,2020-10-13 14:03:37,2020-10-13 14:03:40,3.086s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 86.0.4240.75,,,2020-10-13 14:03:40,2020-10-13 14:03:41,0.699s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""km+GcSfnpVC+8FRYf7Kr7g=="")",Chrome 86.0.4240.75,,,2020-10-13 14:03:41,2020-10-13 14:03:42,0.478s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 86.0.4240.75,,,2020-10-13 14:03:42,2020-10-13 14:03:43,1.120s,PASSED
+"verifyTextPresent(""Login failed! Please ensure the username and password are valid."", false)",Chrome 86.0.4240.75,,,2020-10-13 14:03:43,2020-10-13 14:03:43,0.362s,PASSED
+closeBrowser(),Chrome 86.0.4240.75,,,2020-10-13 14:03:43,2020-10-13 14:03:44,0.698s,PASSED
+,,,,,,,
+Test Cases/TC3,Chrome 86.0.4240.75,Nhập tài khoản để trống mật khẩu,,2020-10-13 14:03:44,2020-10-13 14:03:55,11.010s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.75,,,2020-10-13 14:03:44,2020-10-13 14:03:48,3.999s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 86.0.4240.75,,,2020-10-13 14:03:48,2020-10-13 14:03:51,3.466s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 86.0.4240.75,,,2020-10-13 14:03:51,2020-10-13 14:03:52,0.965s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 86.0.4240.75,,,2020-10-13 14:03:52,2020-10-13 14:03:54,1.277s,PASSED
+"verifyTextPresent(""Login failed! Please ensure the username and password are valid."", false)",Chrome 86.0.4240.75,,,2020-10-13 14:03:54,2020-10-13 14:03:54,0.373s,PASSED
+closeBrowser(),Chrome 86.0.4240.75,,,2020-10-13 14:03:54,2020-10-13 14:03:55,0.739s,PASSED
+,,,,,,,
+Test Cases/TC4,Chrome 86.0.4240.75,Trống tài khoản nhập mật khẩu,,2020-10-13 14:03:55,2020-10-13 14:04:05,10.032s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.75,,,2020-10-13 14:03:55,2020-10-13 14:03:58,3.397s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 86.0.4240.75,,,2020-10-13 14:03:58,2020-10-13 14:04:02,3.856s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""km+GcSfnpVC+8FRYf7Kr7g=="")",Chrome 86.0.4240.75,,,2020-10-13 14:04:02,2020-10-13 14:04:03,0.520s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 86.0.4240.75,,,2020-10-13 14:04:03,2020-10-13 14:04:04,1.021s,PASSED
+"verifyTextPresent(""Login failed! Please ensure the username and password are valid."", false)",Chrome 86.0.4240.75,,,2020-10-13 14:04:04,2020-10-13 14:04:04,0.386s,PASSED
+closeBrowser(),Chrome 86.0.4240.75,,,2020-10-13 14:04:04,2020-10-13 14:04:05,0.678s,PASSED
+,,,,,,,
+Test Cases/TC5,Chrome 86.0.4240.75,Trống cả tài khoản và mật khẩu,,2020-10-13 14:04:05,2020-10-13 14:04:14,9.129s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.75,,,2020-10-13 14:04:05,2020-10-13 14:04:08,3.452s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 86.0.4240.75,,,2020-10-13 14:04:08,2020-10-13 14:04:11,3.027s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 86.0.4240.75,,,2020-10-13 14:04:11,2020-10-13 14:04:12,0.992s,PASSED
+"verifyTextPresent(""Login failed! Please ensure the username and password are valid."", false)",Chrome 86.0.4240.75,,,2020-10-13 14:04:12,2020-10-13 14:04:13,0.351s,PASSED
+closeBrowser(),Chrome 86.0.4240.75,,,2020-10-13 14:04:13,2020-10-13 14:04:14,1.148s,PASSED

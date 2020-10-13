@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Nhập đúng tài khoản mật khẩu</description>
+   <name>TC1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d982f4a-b61c-4dfa-853d-bfe7351c5cab</testCaseGuid>
+</TestCaseEntity>
